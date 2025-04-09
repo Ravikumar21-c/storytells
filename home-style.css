@@ -1,0 +1,1247 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+.wrapper {
+    width: 105%;
+    max-width: 1536px;
+    margin-inline: auto;
+    position: relative;
+    height: 100px;
+    margin-top: -21rem;
+    overflow: hidden;
+    mask-image: linear-gradient(to right,
+            rgba(0, 0, 0, 0),
+            rgba(0, 0, 0, 1) 20%,
+            rgba(0, 0, 0, 1) 80%,
+            rgba(0, 0, 0, 0));
+}
+
+@keyframes scrollLeft {
+    to {
+        left: -200px;
+    }
+}
+
+
+
+.card {
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    border-radius: 6px;
+    position: absolute;
+    left: max(calc(200px * 8), 100%);
+    animation-name: scrollLeft;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.card1 {
+    animation-delay: calc(30s / 8 * (8 - 1) * -1);
+    background-image: url(/img/download\ \(2\).png);
+}
+
+.card2 {
+    animation-delay: calc(30s / 8 * (8 - 2) * -1);
+}
+
+.card3 {
+    animation-delay: calc(30s / 8 * (8 - 3) * -1);
+}
+
+.card4 {
+    animation-delay: calc(30s / 8 * (8 - 4) * -1);
+}
+
+.card5 {
+    animation-delay: calc(30s / 8 * (8 - 5) * -1);
+}
+
+.card6 {
+    animation-delay: calc(30s / 8 * (8 - 6) * -1);
+}
+
+.card7 {
+    animation-delay: calc(30s / 8 * (8 - 7) * -1);
+}
+
+.card8 {
+    animation-delay: calc(30s / 8 * (8 - 8) * -1);
+}
+
+.wrapper1 {
+    width: 105%;
+    text-align: center;
+    max-width: 1536px;
+    margin-inline: auto;
+    position: relative;
+    height: 100px;
+    margin-top: 56%;
+    overflow: hidden;
+    mask-image: linear-gradient(to right,
+            rgba(0, 0, 0, 0),
+            rgba(0, 0, 0, 1) 20%,
+            rgba(0, 0, 0, 1) 80%,
+            rgba(0, 0, 0, 0));
+}
+
+@keyframes scrollLeft {
+    to {
+        left: -200px;
+    }
+}
+
+.card1a {
+    width: 100px;
+    height: 50px;
+    backdrop-filter: blur(4px);
+    border-radius: 200px;
+    position: absolute;
+    left: max(calc(200px * 8), 100%);
+    animation-name: scrollLeft;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.card11 {
+    animation-delay: calc(30s / 8 * (8 - 1) * -1);
+    background-color: #e67e22;
+    box-shadow: 0 6px 12px #e67e22;
+}
+
+.card21 {
+    animation-delay: calc(30s / 8 * (8 - 2) * -1);
+    background-color: #ee6676;
+    box-shadow: 0 6px 12px #ee6676;
+
+}
+
+.card31 {
+    animation-delay: calc(30s / 8 * (8 - 3) * -1);
+    background-color: #484801;
+    box-shadow: 0 6px 12px #484801;
+}
+
+.card41 {
+    animation-delay: calc(30s / 8 * (8 - 4) * -1);
+    background-color: whitesmoke;
+    box-shadow: 0 6px 12px whitesmoke;
+}
+
+.card51 {
+    animation-delay: calc(30s / 8 * (8 - 5) * -1);
+    background-color: #23d4e8;
+    box-shadow: 0 6px 12px #23d4e8;
+}
+
+.card61 {
+    animation-delay: calc(30s / 8 * (8 - 6) * -1);
+    background-color: #7e2;
+    box-shadow: 0 6px 12px #7e2;
+
+}
+
+.card71 {
+    animation-delay: calc(30s / 8 * (8 - 7) * -1);
+    background-color: #e66322;
+    box-shadow: 0 6px 12px #e66322;
+}
+
+.card81 {
+    animation-delay: calc(30s / 8 * (8 - 8) * -1);
+    background-color: #d9e622;
+    box-shadow: 0 6px 12px #d9e622;
+}
+
+.wrapper2 {
+    width: 1116%;
+    max-width: 1536px;
+    margin-inline: -300px;
+    position: relative;
+    height: 100px;
+    margin-top: 94%;
+    overflow: hidden;
+    mask-image: linear-gradient(to right,
+            rgba(0, 0, 0, 0),
+            rgba(0, 0, 0, 1) 20%,
+            rgba(0, 0, 0, 1) 80%,
+            rgba(0, 0, 0, 0));
+}
+
+@keyframes scrollLeft {
+    to {
+        left: -200px;
+    }
+}
+
+.card2b {
+    width: 200px;
+    backdrop-filter: blur(4px);
+    height: 100px;
+    border-radius: 15px;
+    position: absolute;
+    left: max(calc(200px * 8), 100%);
+    animation-name: scrollLeft;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.card12 {
+    animation-delay: calc(30s / 8 * (8 - 1) * -1);
+    background-color: #e67e22;
+}
+
+.card22 {
+    animation-delay: calc(30s / 8 * (8 - 2) * -1);
+    background-color: #e67e22;
+}
+
+.card32 {
+    animation-delay: calc(30s / 8 * (8 - 3) * -1);
+    background-color: #e67e22;
+}
+
+.card42 {
+    animation-delay: calc(30s / 8 * (8 - 4) * -1);
+    background-color: #e67e22;
+}
+
+.card52 {
+    animation-delay: calc(30s / 8 * (8 - 5) * -1);
+    background-color: #e67e22;
+}
+
+.card62 {
+    animation-delay: calc(30s / 8 * (8 - 6) * -1);
+    background-color: #e67e22;
+}
+
+.card72 {
+    animation-delay: calc(30s / 8 * (8 - 7) * -1);
+    background-color: #e67e22;
+}
+
+.card82 {
+    animation-delay: calc(30s / 8 * (8 - 8) * -1);
+    background-color: #e67e22;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://res.cloudinary.com/dfpoitmva/image/upload/v1744175934/luxu_ctdamy.avif);
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+header {
+    background-image: url(https://res.cloudinary.com/dfpoitmva/image/upload/v1744175666/universe_iugbat.jpg);
+    padding: 12px;
+    box-shadow: 0 0px 6px #23d4e8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    border-radius: 24px;
+    margin: 0.35%;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Logo Styles */
+header .logo {
+    display: flex;
+    align-items: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+header .logo h1 {
+    font-size: 2.5rem;
+    margin-left: 10px;
+    color: #f0d8d8;
+}
+
+header .logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+    box-shadow: 0px 4px 8px #23d4e8;
+}
+
+/* Navigation Bar Styles */
+ul {
+    display: flex;
+    list-style: none;
+}
+
+ul li {
+    margin-left: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #23d4e8;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+ul li a:hover {
+    color: #333;
+}
+
+/* Slider Styles */
+.container {
+    position: absolute;
+    top: 331px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1000px;
+    height: 500px;
+    background: #000000;
+    box-shadow: 0 30px 50px #9d9999;
+}
+
+.container .slide .item {
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    border-radius: 20px;
+    box-shadow: 0 30px 50px #000;
+    background-position: 50% 50%;
+    background-size: cover;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+.slide .item:nth-child(1),
+.slide .item:nth-child(2) {
+    top: 0px;
+    left: -219px;
+    transform: translate(0, 0);
+    width: 155%;
+    height: 106%;
+}
+
+
+.slide .item:nth-child(3) {
+    left: 50%;
+}
+
+.slide .item:nth-child(4) {
+    left: calc(50% + 220px);
+}
+
+.slide .item:nth-child(5) {
+    left: calc(50% + 440px);
+}
+
+/* here n = 0, 1, 2, 3,... */
+.slide .item:nth-child(n + 6) {
+    left: calc(50% + 660px);
+    opacity: 0;
+}
+
+
+
+.item .content {
+    position: absolute;
+    top: 50%;
+    left: 100px;
+    width: 300px;
+    text-align: left;
+    color: #ffffff;
+    transform: translate(0, -50%);
+    font-family: system-ui;
+    display: none;
+}
+
+
+.slide .item:nth-child(2) .content {
+    display: block;
+}
+
+
+
+
+.content .name {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    opacity: 0;
+    animation: animate 1s ease-in-out 1 forwards;
+}
+
+.content .des {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    opacity: 0;
+    animation: animate 1s ease-in-out 0.3s 1 forwards;
+}
+
+.content button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0;
+    animation: animate 1s ease-in-out 0.6s 1 forwards;
+}
+
+
+@keyframes animate {
+    from {
+        opacity: 0;
+        transform: translate(0, 100px);
+        filter: blur(33px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate(0);
+        filter: blur(0);
+    }
+}
+
+
+
+.button1 {
+    width: 100%;
+    text-align: center;
+    color: #333;
+    position: absolute;
+    bottom: 20px;
+}
+
+.button1 button {
+    width: 40px;
+    height: 35px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin: 0 5px;
+    border: 1px solid #000;
+    transition: 0.3s;
+}
+
+.prev,
+.next {
+    background: #00000080;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.prev:hover,
+.next:hover {
+    background: #000000cc;
+}
+
+
+
+/* Smooth Scroll */
+html {
+    scroll-behavior: smooth;
+}
+
+/* books */
+
+
+
+
+/* Style for the button */
+button {
+    background-image: conic-gradient(#000000,
+            #000000);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 35px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-image: conic-gradient(#000000,
+            whitesmoke,
+            #23d4e8,
+            #000000);
+    backdrop-filter: blur(4px);
+}
+
+/* Footer Styles */
+footer {
+    background-color: #fff;
+    margin-right: -10%;
+    padding: 200px;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+.footer1-text p {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.footer1-subscription {
+    margin: 20px 0;
+}
+
+.footer1-subscription h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer1-subscription input {
+    padding: 10px;
+    width: 200px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.footer1-subscription button {
+    padding: 10px 20px;
+    background-color: #f39c12;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer1-subscription button:hover {
+    background-color: #e67e22;
+}
+
+.footer1-icons {
+    margin-top: 20px;
+}
+
+.footer1-icons .icon {
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+    font-size: 20px;
+    color: white;
+    background-color: #555;
+    border-radius: 50%;
+}
+
+.footer1-icons .facebook {
+    background-image: conic-gradient(rgb(59, 59, 189), white, rgb(59, 59, 189));
+}
+
+.footer1-icons .linktree {
+    background-image: conic-gradient(rgb(105, 211, 34), white, rgb(105, 211, 34));
+}
+
+.footer1-icons .instagram {
+    background-image: conic-gradient(white, purple, pink, red, orange, yellow, white);
+}
+
+.footer1-icons .linkedin {
+    background-image: conic-gradient(white, purple, pink, red, orange, yellow, white);
+}
+
+.footer1-icons .github {
+    background-image: conic-gradient(gray, black, gray, black, gray);
+}
+
+.footer1-icons .coddy {
+    background-image: conic-gradient(rgb(91, 160, 187), white, rgb(91, 160, 187));
+}
+
+
+
+.footer1-icons .icon:hover {
+    opacity: 0.9;
+}
+
+
+
+
+.playercontainer {
+    text-align: center;
+    margin-top: 55%;
+    margin-left: -25px;
+    animation: fadeIn 1s ease-in-out;
+    width: 30%;
+    background-color: black;
+    color: #9d9999;
+    padding: 95px;
+    border-radius: 45px;
+    box-shadow: 0 5px 15px #23d4e8;
+
+}
+
+img {
+    width: 150px;
+    height: 197px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+input[type="range"] {
+    width: 100%;
+}
+
+video {
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 5%;
+    animation: fadeIn 1s ease-in-out;
+    width: 35%;
+    color: #9d9999;
+    padding: 15px;
+    border-radius: 45px;
+    box-shadow: 0 5px 15px #23d4e8;
+
+
+}
+
+.video1 {
+    text-align: center;
+    margin-top: -71%;
+    margin-left: 8%;
+    animation: fadeIn 1s ease-in-out;
+    width: 125%;
+    color: #9d9999;
+    padding: 15px;
+    border-radius: 45px;
+
+
+}
+
+
+.notpad {
+    text-align: center;
+    margin-top: 1%;
+    margin-left: 48%;
+    animation: fadeIn 1s ease-in-out;
+    width: 55%;
+    background-color: black;
+    color: #9d9999;
+    padding: 95px;
+    border-radius: 45px;
+    box-shadow: 0 5px 15px #23d4e8;
+
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+textarea {
+    width: 100%;
+    height: 300px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    resize: none;
+    outline: none;
+}
+
+/*for search bar*/
+
+.search-container {
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 5%;
+    width: 92%;
+    background-color: black;
+    color: #9d9999;
+    padding: 67px;
+    border-radius: 124px;
+    box-shadow: 0 5px 15px #23d4e8;
+}
+
+input[type="text"] {
+    padding: 24px;
+    border: none;
+    border-radius: 32px;
+    outline: none;
+    width: 1000px;
+    background-color: #333;
+    color: #fff;
+}
+
+.books1 {
+    display: flex;
+    margin-top: 6%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-shadow: 0 30px 50px #23d4e8;
+    gap: 20px;
+    padding: 20px;
+    background-image: url(https://res.cloudinary.com/dfpoitmva/image/upload/v1744175666/universe_iugbat.jpg);
+    border-radius: 10px;
+    z-index: -1;
+}
+
+/* Style for individual book items */
+.books1 .items1 {
+
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 150px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* Smooth transitions */
+    transform-style: preserve-3d;
+    position: relative;
+    animation: spinAnimation 5s infinite alternate;
+    /* Example of continuous animation */
+}
+
+.books1 .items2 {
+    padding: 20px;
+    background-color: #000;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 150px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* Smooth transitions */
+    transform-style: preserve-3d;
+    position: relative;
+    animation: spinAnimation 5s infinite alternate;
+    /* Example of continuous animation */
+}
+
+.books1 .items3 {
+    padding: 20px;
+    background-color: #000;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 150px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* Smooth transitions */
+    transform-style: preserve-3d;
+    position: relative;
+    animation: spinAnimation 5s infinite alternate;
+    /* Example of continuous animation */
+}
+
+.books1 .items4 {
+    padding: 20px;
+    background-color: #000;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 150px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* Smooth transitions */
+    transform-style: preserve-3d;
+    position: relative;
+    animation: spinAnimation 5s infinite alternate;
+    /* Example of continuous animation */
+}
+
+.books2 {
+    display: flex;
+    box-shadow: 0 5px 15px #23d4e8;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    background-image: url(https://res.cloudinary.com/dfpoitmva/image/upload/v1744175666/universe_iugbat.jpg);
+    perspective: 1500px;
+}
+
+.books2 .items1 {
+    padding: 20px;
+    background-color: #000;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 150px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* Smooth transitions */
+    transform-style: preserve-3d;
+    position: relative;
+    animation: spinAnimation 5s infinite alternate;
+    /* Example of continuous animation */
+}
+
+.books2 .items2 {
+    padding: 20px;
+    background-color: #000;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 150px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* Smooth transitions */
+    transform-style: preserve-3d;
+    position: relative;
+    animation: spinAnimation 5s infinite alternate;
+    /* Example of continuous animation */
+}
+
+.books2 .items3 {
+    padding: 20px;
+    background-color: #000;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 150px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* Smooth transitions */
+    transform-style: preserve-3d;
+    position: relative;
+    animation: spinAnimation 5s infinite alternate;
+    /* Example of continuous animation */
+}
+
+.books2 .items4 {
+    padding: 20px;
+    background-color: #000;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 150px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* Smooth transitions */
+    transform-style: preserve-3d;
+    position: relative;
+    animation: spinAnimation 5s infinite alternate;
+    /* Example of continuous animation */
+}
+
+.books3 {
+    display: flex;
+    box-shadow: 0 5px 15px #23d4e8;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    background-image: url(https://res.cloudinary.com/dfpoitmva/image/upload/v1744175666/universe_iugbat.jpg);
+    perspective: 1500px;
+}
+
+.books3 .items1 {
+    padding: 20px;
+    background-color: #000;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 150px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* Smooth transitions */
+    transform-style: preserve-3d;
+    position: relative;
+    animation: spinAnimation 5s infinite alternate;
+    /* Example of continuous animation */
+}
+
+.books3 .items2 {
+    padding: 20px;
+    background-color: #000;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 150px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* Smooth transitions */
+    transform-style: preserve-3d;
+    position: relative;
+    animation: spinAnimation 5s infinite alternate;
+    /* Example of continuous animation */
+}
+
+.books3 .items3 {
+    padding: 20px;
+    background-color: #000;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 150px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* Smooth transitions */
+    transform-style: preserve-3d;
+    position: relative;
+    animation: spinAnimation 5s infinite alternate;
+    /* Example of continuous animation */
+}
+
+.books3 .items4 {
+    padding: 20px;
+    background-color: #000;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 150px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* Smooth transitions */
+    transform-style: preserve-3d;
+    position: relative;
+    animation: spinAnimation 5s infinite alternate;
+    /* Example of continuous animation */
+}
+
+.books4 {
+    display: flex;
+    box-shadow: 0 5px 15px #23d4e8;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    background-image: url(https://res.cloudinary.com/dfpoitmva/image/upload/v1744175666/universe_iugbat.jpg);
+    perspective: 1500px;
+}
+
+.books4 .items1 {
+    padding: 20px;
+    background-color: #000;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 150px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* Smooth transitions */
+    transform-style: preserve-3d;
+    position: relative;
+    animation: spinAnimation 5s infinite alternate;
+    /* Example of continuous animation */
+}
+
+.books4 .items2 {
+    padding: 20px;
+    background-color: #000;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 150px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* Smooth transitions */
+    transform-style: preserve-3d;
+    position: relative;
+    animation: spinAnimation 5s infinite alternate;
+    /* Example of continuous animation */
+}
+
+.books4 .items3 {
+    padding: 20px;
+    background-color: #000;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 150px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* Smooth transitions */
+    transform-style: preserve-3d;
+    position: relative;
+    animation: spinAnimation 5s infinite alternate;
+    /* Example of continuous animation */
+}
+
+.books4 .items4 {
+    padding: 20px;
+    background-color: #000;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 150px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* Smooth transitions */
+    transform-style: preserve-3d;
+    position: relative;
+    animation: spinAnimation 5s infinite alternate;
+    /* Example of continuous animation */
+}
+
+.books5 {
+    display: flex;
+    box-shadow: 0 5px 15px #23d4e8;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    background-image: url(https://res.cloudinary.com/dfpoitmva/image/upload/v1744175666/universe_iugbat.jpg);
+    perspective: 1500px;
+}
+
+.books5 .items1 {
+    padding: 20px;
+    background-color: #000;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 150px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* Smooth transitions */
+    transform-style: preserve-3d;
+    position: relative;
+    animation: spinAnimation 5s infinite alternate;
+    /* Example of continuous animation */
+}
+
+.books5 .items2 {
+    padding: 20px;
+    background-color: #000;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 150px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* Smooth transitions */
+    transform-style: preserve-3d;
+    position: relative;
+    animation: spinAnimation 5s infinite alternate;
+    /* Example of continuous animation */
+}
+
+.books5 .items3 {
+    padding: 20px;
+    background-color: #000;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 150px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* Smooth transitions */
+    transform-style: preserve-3d;
+    position: relative;
+    animation: spinAnimation 5s infinite alternate;
+    /* Example of continuous animation */
+}
+
+.books5 .items4 {
+    padding: 20px;
+    background-color: #000;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 150px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* Smooth transitions */
+    transform-style: preserve-3d;
+    position: relative;
+    animation: spinAnimation 5s infinite alternate;
+    /* Example of continuous animation */
+}
+
+.books6 {
+    display: flex;
+    box-shadow: 0 5px 15px #23d4e8;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    background-image: url(https://res.cloudinary.com/dfpoitmva/image/upload/v1744175666/universe_iugbat.jpg);
+    perspective: 1500px;
+}
+
+.books6 .items1 {
+    padding: 20px;
+    background-color: #000;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 150px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* Smooth transitions */
+    transform-style: preserve-3d;
+    position: relative;
+    animation: spinAnimation 5s infinite alternate;
+    /* Example of continuous animation */
+}
+
+.books6 .items2 {
+    padding: 20px;
+    background-color: #000;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 150px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* Smooth transitions */
+    transform-style: preserve-3d;
+    position: relative;
+    animation: spinAnimation 5s infinite alternate;
+    /* Example of continuous animation */
+}
+
+.books6 .items3 {
+    padding: 20px;
+    background-color: #000;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 150px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* Smooth transitions */
+    transform-style: preserve-3d;
+    position: relative;
+    animation: spinAnimation 5s infinite alternate;
+    /* Example of continuous animation */
+}
+
+.books6 .items4 {
+    padding: 20px;
+    background-color: #000;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 150px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* Smooth transitions */
+    transform-style: preserve-3d;
+    position: relative;
+    animation: spinAnimation 5s infinite alternate;
+    /* Example of continuous animation */
+}
+
+
+/* Define a spin effect animation */
+@keyframes spinAnimation {
+    0% {
+        transform: rotateY(15deg) rotateX(15deg) scale(1);
+    }
+
+    50% {
+        transform: rotateY(25deg) rotateX(25deg) scale(1.05);
+    }
+
+    100% {
+        transform: rotateY(0deg) rotateX(0deg) scale(1.5);
+    }
+}
+
+
+
+.books .items1 a,
+.books .items2 a,
+.books .items3 a,
+.books .items4 a {
+    text-decoration: none;
+}
