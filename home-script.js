@@ -82,7 +82,7 @@ const playPauseButton = document.getElementById('playPause');
 const cover = document.getElementById('cover');
 
 const tracks = [
-    { src: '/audio/1.mp3', cover: '/img/images.png' },
+    { src: '/audio/1.mp3', cover: 'https://m.media-amazon.com/images/I/81l3rZK4lnL.jpg' },
     { src: '/audio/2.mp3', cover: 'https://res.cloudinary.com/dfpoitmva/image/upload/v1744175934/table_bg_hfdzoh.jpg' },
     { src: '/audio/3.mp3', cover: 'https://res.cloudinary.com/dfpoitmva/image/upload/v1744176021/3p_ish40q.jpg' },
     { src: '/audio/4.mp3', cover: 'https://res.cloudinary.com/dfpoitmva/image/upload/v1744175969/logo_fmwt9r.png' }
