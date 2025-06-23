@@ -137,5 +137,15 @@ document.addEventListener("scroll", function () {
     playercontainer.style.transform = `translatex(${scrollPosition / 15}px)`;
 });
 
+loadTrack(currentTrack);
+
+document.addEventListener("scroll", function () {
+    let playercontainer = document.querySelector(".notpad");
+    let scrollPosition = window.scrollY;
+
+    // Move the container from right to left as you scroll down
+    playercontainer.style.transform = `translatex(${scrollPosition / -15}px)`;
+});
+
 
 
