@@ -45,7 +45,7 @@ document.addEventListener("scroll", function () {
     let scrollPosition = window.scrollY;
 
     // Move the container from right to left as you scroll down
-    container.style.transform = `translateX(${-scrollPosition / 0.5000}px)`;
+    container.style.transform = `translateX(${-scrollPosition / 0.3000}px)`;
 });
 
 
@@ -82,10 +82,10 @@ const playPauseButton = document.getElementById('playPause');
 const cover = document.getElementById('cover');
 
 const tracks = [
-    { src: '/audio/1.mp3', cover: 'https://m.media-amazon.com/images/I/81l3rZK4lnL.jpg' },
-    { src: '/audio/2.mp3', cover: 'https://res.cloudinary.com/dfpoitmva/image/upload/v1744175934/table_bg_hfdzoh.jpg' },
-    { src: '/audio/3.mp3', cover: 'https://res.cloudinary.com/dfpoitmva/image/upload/v1744176021/3p_ish40q.jpg' },
-    { src: '/audio/4.mp3', cover: 'https://res.cloudinary.com/dfpoitmva/image/upload/v1744175969/logo_fmwt9r.png' }
+    { src: 'https://res.cloudinary.com/duh4ozozb/video/upload/v1750652680/1_h8buf8.mp3', cover: 'https://m.media-amazon.com/images/I/81l3rZK4lnL.jpg' },
+    { src: 'https://res.cloudinary.com/duh4ozozb/video/upload/v1750652708/2_endncl.mp3', cover: 'https://res.cloudinary.com/dfpoitmva/image/upload/v1744175934/table_bg_hfdzoh.jpg' },
+    { src: 'https://res.cloudinary.com/duh4ozozb/video/upload/v1750653030/3_fvar1d.mp3', cover: 'https://res.cloudinary.com/dfpoitmva/image/upload/v1744176021/3p_ish40q.jpg' },
+    { src: 'https://res.cloudinary.com/duh4ozozb/video/upload/v1750652658/4_kbxizz.mp3', cover: 'https://res.cloudinary.com/dfpoitmva/image/upload/v1744175969/logo_fmwt9r.png' }
 ];
 
 let currentTrack = 0;
@@ -137,11 +137,5 @@ document.addEventListener("scroll", function () {
     playercontainer.style.transform = `translatex(${scrollPosition / 15}px)`;
 });
 
-document.addEventListener("scroll", function () {
-    let notpad = document.querySelector(".notpad");
-    let scrollPosition = window.scrollY;
 
-    // Move the container from right to left as you scroll down
-    notpad.style.transform = `translatex(${-scrollPosition / 15}px)`;
-});
 
