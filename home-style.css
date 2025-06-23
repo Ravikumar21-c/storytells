@@ -636,7 +636,7 @@ input[type="range"] {
 .notpad {
     text-align: center;
     margin-top: -550px;
-    margin-left: -35%;
+    margin-left: 45%;
     animation: fadeIn 1s ease-in-out;
     width: 45%;
     background-color: black;
