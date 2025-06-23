@@ -142,7 +142,7 @@ document.addEventListener("scroll", function () {
 loadTrack(currentTrack);
 
 document.addEventListener("scroll", function () {
-    let playercontainer = document.querySelector(".note");
+    let playercontainer = document.querySelector(".notpad");
     let scrollPosition = window.scrollY;
 
     // Move the container from right to left as you scroll down
