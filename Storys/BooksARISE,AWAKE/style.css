@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Playwrite+AU+SA:wght@100..400&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Caprasimo', cursive;
+}
+
+/* Body Styles */
+body {
+  background-image: conic-gradient( blue,black,blue,red,blue);
+  color: #030712;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+/* for Sportlight */
+.spotlight {
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.6);
+  pointer-events: none;
+  mix-blend-mode: overlay;
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.6);
+  transition: width 0.2s ease, height 0.2s ease;
+}
+
+/* Header Styles */
+header {
+  background-image: conic-gradient( black,red,black,red,black,red,black);
+  padding: -6px;
+  box-shadow: 0 4px 6px rgba(183, 16, 16, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  perspective: 1500px;
+  border-radius: 24px;
+  margin: 0.35%;
+  /* Add perspective to the header for 3D effect */
+}
+
+/* Logo Styles */
+header .logo {
+  display: flex;
+  align-items: center;
+  transform: rotateY(-10deg);
+  /* Rotate the logo slightly to give a 3D effect */
+  transition: transform 0.3s ease-in-out;
+}
+
+header .logo h1 {
+  font-size: 2.5rem;
+  margin-left: 10px;
+  color: #f0d8d8;
+}
+
+header .logo img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+  box-shadow: 0px 4px 8px rgb(0, 0, 0);
+}
+
+/* Hover effect to give logo a 3D rotation */
+header .logo:hover {
+  transform: rotateY(10deg);
+}
+
+/* Navigation Bar Styles */
+ul {
+  display: flex;
+  list-style: none;
+}
+
+ul li {
+  margin-left: 20px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+ul li a:hover {
+  color: #1ebc70;
+}
+
+/* Book Title Styles */
+main div {
+  text-align: center;
+  padding: 40px;
+}
+
+main h2 {
+  font-size: 2.5rem;
+  color: #5c0909;
+}
+
+/* Autor Left side*/
+
+.container0 {
+  position: relative;
+  height: 100%;
+  width: 326px;
+  display: flow-root;
+  justify-content: left;
+  align-items: center;
+}
+
+.content0 {
+  text-align: left;
+  background-color: #f6eaea;
+  padding: 40px;
+  border-radius: 25px;
+}
+
+.container0::after,
+.container0::before {
+  content: "";
+  position: absolute;
+  height: 92%;
+  width: 260px;
+  background-image: conic-gradient(red, black, white, grey, red);
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  z-index: -1;
+  padding: 2px;
+  border-radius: 35px;
+}
+
+.container0::before {
+  filter: blur(1.5rem);
+  opacity: 0.5;
+}
+
+/* Table 3D on Air  right side*/
+
+.container2 {
+  position: absolute;
+  /* Changed from relative to absolute */
+  top: 65px;
+  /* Adjust the top position as needed */
+  right: -15px;
+  /* Adjust the right position as needed */
+  width: 100%;
+  /* Optional: You can control the width if needed */
+  height: auto;
+  /* Adjust the height if necessary */
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  perspective: 1500px;
+}
+
+.content2 {
+  text-align: center;
+background-image: conic-gradient(red,lightgreen,blue,pink,red);
+  padding: 0px;
+  border-radius: 45px;
+  box-shadow: 0 5px 15px rgba(206, 11, 11, 0.3);
+  transform-style: preserve-3d;
+  transition: transform 1s ease-out;
+}
+
+.container1 {
+  position: absolute;
+  top: 65px;
+  right: -15px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  perspective: 1500px;
+  transition: transform 0.5s ease-out;
+}
+
+.content1 {
+  text-align: center;
+  background-image: conic-gradient(red,lightgreen,blue,pink,red);
+  padding: 0px;
+  border-radius: 45px;
+  box-shadow: 0 5px 15px rgba(206, 11, 11, 0.3);
+  transform-style: preserve-3d;
+  transition: transform 1s ease-out;
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  text-align: left;
+  border-radius: 20px;
+  /* Curved edges for the table */
+  overflow: hidden;
+  /* Prevents the table from overflowing the curved edges */
+  box-shadow: 0 6px 12px rgba(239, 1, 1, 0.2);
+  transform: rotateX(0deg) rotateY(0deg);
+  /* Add rotation to give a 3D effect */
+  perspective: 1500px;
+  /* Apply perspective for the 3D effect */
+}
+
+/* Table Header Styles */
+table th,
+table td {
+  padding: 12px 15px;
+  border: 1px solid #eb0f0f;
+}
+
+/* Header Style */
+table th {
+  background-color: #26d1b7;
+  color: rgb(2, 18, 11);
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+/* Table Data Style */
+table td {
+  background-image: url(/img/table\ bg.jpg);
+  text-align: center;
+}
+
+/* Add 3D effect to each chapter container */
+table td a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  background-color: #fff;
+  color: #333;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  transform: translateZ(0);
+  perspective: 1500px;
+}
+
+/* Hover effect for 3D containers */
+table td a:hover {
+  transform: translateY(-5px) rotateX(10deg) rotateY(5deg);
+  box-shadow: 0 12px 24px rgba(253, 17, 17, 0.2);
+  background-color: #3498db;
+  color: rgb(32, 2, 2);
+}
+
+/* Table Rows (Alternating row colors for better visual distinction) */
+table tr:nth-child(even) td a {
+  background-color: #dfedff;
+}
+
+table tr:nth-child(odd) td a {
+  background-color: #fff;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-top: 40px;
+}
+
+footer h4 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+footer pre {
+  font-size: 1.1rem;
+  color: #555;
+  white-space: pre-wrap;
+  text-align: left;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+}
