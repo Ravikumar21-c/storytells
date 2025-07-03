@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Playwrite+AU+SA:wght@100..400&display=swap');
+
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Caprasimo', cursive;
+}
+
+/* Body Styles */
+body {
+    background-image: url(/img/images.png);
+    color: #030712;
+    line-height: 1.6;
+    overflow-x: hidden;
+    /* Prevent horizontal scrolling */
+}
+
+/* for Sportlight */
+.spotlight {
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.6);
+    pointer-events: none;
+    mix-blend-mode: overlay;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.6);
+    transition: width 0.2s ease, height 0.2s ease;
+}
+
+/* Header Styles */
+header {
+    background-image: url(/img/bgred.jpg);
+    padding: -6px;
+    box-shadow: 0 4px 6px rgba(183, 16, 16, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    perspective: 1500px;
+    border-radius: 24px;
+    margin: 0.35%;
+    /* Add perspective to the header for 3D effect */
+}
+
+/* Logo Styles */
+header .logo {
+    display: flex;
+    align-items: center;
+    transform: rotateY(-10deg);
+    /* Rotate the logo slightly to give a 3D effect */
+    transition: transform 0.3s ease-in-out;
+}
+
+header .logo h1 {
+    font-size: 2.5rem;
+    margin-left: 10px;
+    color: #f0d8d8;
+}
+
+header .logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+    box-shadow: 0px 4px 8px rgb(0, 0, 0);
+}
+
+/* Hover effect to give logo a 3D rotation */
+header .logo:hover {
+    transform: rotateY(10deg);
+}
+
+/* Navigation Bar Styles */
+ul {
+    display: flex;
+    list-style: none;
+}
+
+ul li {
+    margin-left: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+ul li a:hover {
+    color: #1ebc70;
+}
+
+.arise {
+    position: absolute;
+    top: 81px;
+    right: 16px;
+    width: 98%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 1500px;
+    transition: transform 0.5s ease-out;
+}
+
+.awake {
+    text-align: center;
+    background-image: url('/img/bg.png');
+    padding: 210px;
+    border-radius: 45px;
+    box-shadow: 0 5px 15px rgba(206, 11, 11, 0.3);
+    transform-style: preserve-3d;
+    transition: transform 1s ease-out;
+}
+
+
+/* for Sportlight */
+.spotlight {
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.6);
+    pointer-events: none;
+    mix-blend-mode: overlay;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.6);
+    transition: width 0.2s ease, height 0.2s ease;
+}
